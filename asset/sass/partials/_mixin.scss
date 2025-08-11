@@ -1,0 +1,23 @@
+// Font-size //
+@mixin text-style($size, $weight, $color, $lineHeight){
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    line-height: $lineHeight;
+}
+
+
+
+
+
+// flex-wrap //
+
+@mixin flex-wrap($display, $flex-wrap, $align-items, $gap){
+    display: $display;
+    flex-wrap: $flex-wrap;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+
+

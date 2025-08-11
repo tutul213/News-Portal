@@ -1,0 +1,1937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+
+    <link rel="shortcut icon" href="./asset/images/favicon.png" type="image/x-icon">
+
+    <!-- jquery link -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
+    <!--AOS Animation cdn link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!--Swiper cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+  <!-- font awesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous"    referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+
+    <!-- remixicon cdn link
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/> -->
+
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    
+
+    <link rel="stylesheet" href="./asset/magnific-popup.css">
+
+
+    <!-- custom CSS file link -->
+    <link rel="stylesheet" href="./asset/sass/main.css">
+
+
+
+</head>
+<body>
+
+
+        <!--================= HEADER START =================-->
+        <header class="main_header">
+          <div class="main_header_wrapper">
+            <div class="main_header_menu">
+              <div class="main_header_menu">
+                <!-- <i class="fa-regular fa-bars" id="menuBtn"></i> -->
+                <i class="fa-light fa-bars-staggered" id="menuBtn"></i>
+              </div>
+
+              <div class="main_header_menu_text">
+                <p>মঙ্গলবার, ১০ ডিসেম্বর ২০২৪
+                  <br>
+                  ২৬ অগ্রহায়ণ ১৪৩১</p>
+              </div>
+            </div>
+
+            <div class="main_header_logo">
+              <a href="#"><img src="./asset/images/logo1.jpg" alt="" class="img-fluid"></a>
+            </div>
+
+            <div class="main_header_search">
+              <div class="search_bar">
+                <input type="text" placeholder="অনুসন্ধান...">
+                <div class="search_bar_icon">
+                  <i class="fa-regular fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="main_header_list" id="navBer">
+              <div class="main_header_list_wrapper">
+                <div class="close_menu">
+                  <i class="fa-regular fa-xmark" id="closeBtn"></i>
+                </div>
+
+                <li class="main_header_link"><a href="national.html">প্রথম পাতা</a></li>
+                <li class="main_header_link"><a href="#">বাংলাদেশ</a></li>
+                <li class="main_header_link"><a href="#">স্বৈরাচার আমলনামা</a></li>
+                <li class="main_header_link"><a href="#">রাজনীতি</a></li>
+                <li class="main_header_link"><a href="#">সারাদেশ</a></li>
+                <li class="main_header_link"><a href="#">বিশ্ব</a></li>
+                <li class="main_header_link"><a href="#">আইন ও অধিকার</a></li>
+                <li class="main_header_link"><a href="#">বাণিজ্য</a></li>
+                <li class="main_header_link"><a href="#">মতামত</a></li>
+                <li class="main_header_link">
+                  <a href="#">আরও <i class="fa-solid fa-angle-down dropMenu"></i></a>
+                  <ul class="dropDown_menu ">
+                    <li><a href="#">সম্পাদকীয়</a></li>
+                    <li><a href="#">শিক্ষা</a></li>
+                    <li><a href="#">খেলাধুলা</a></li>
+                    <li><a href="#">বিনোদন</a></li>
+                    <li><a href="#">ধর্ম ও দর্শন</a></li>
+                    <li><a href="#">বিজ্ঞান ও প্রযুক্তি</a></li>
+                    <li><a href="#">ভ্রমণ</a></li>
+                    <li><a href="#">সাহিত্য</a></li>
+                    <li><a href="#">পরিবেশ ও কৃষি</a></li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!--================= HEADER END =================-->
+
+
+
+        <!--================= HEADER1 START =================-->
+        <section class="header" id="header">
+          <nav class="navBars">
+            <ul class="nav_menu">
+              <li class="nav_list"><a href="national.html" class="nav_link">প্রথম পাতা</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">বাংলাদেশ</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">স্বৈরাচার আমলনামা</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">রাজনীতি</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">সারাদেশ</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">বিশ্ব</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">আইন ও অধিকার</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">বাণিজ্য</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">মতামত</a></li>
+              <li class="nav_list">
+                <a href="#" class="nav_link">আরও <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="dropDown">
+                  <li><a href="#">সম্পাদকীয়</a></li>
+                  <li><a href="#">শিক্ষা</a></li>
+                  <li><a href="#">খেলাধুলা</a></li>
+                  <li><a href="#">বিনোদন</a></li>
+                  <li><a href="#">ধর্ম ও দর্শন</a></li>
+                  <li><a href="#">বিজ্ঞান ও প্রযুক্তি</a></li>
+                  <li><a href="#">ভ্রমণ</a></li>
+                  <li><a href="#">সাহিত্য</a></li>
+                  <li><a href="#">পরিবেশ ও কৃষি</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <!--================= HEADER1 END =================-->
+
+
+
+        <!--================= HERO START =================-->
+        <section class="hero_section">
+          
+          <div class="hero_container">
+            <div class="row hero_row">
+              <div class="col-lg-9 col-md-12 hero_box row">
+                <div class="col-lg-8 col-md-12 hero__side_box">
+                  <div class="hero_content">
+                    <div class="hero_img">
+                      <img src="./asset/images/hero-img1.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="hero_text">
+                      <a href="#"><h1>দেশের মূল ইতিহাস থেকে জাতিকে দূরে সরানোর ষড়যন্ত্র চলছে: মির্জা ফখরুল</h1></a>
+
+                      <p>বিএনপি মহাসচিব মির্জা ফখরুল ইসলাম আলমগীর বলেছেন, এখন একটা প্রবণতা লক্ষ্য করা যাচ্ছে, একাত্তর একটু পেছনে রাখা। আমার মনে হয়, এটা আরেকটা ওই ষড়যন্ত্রের অংশ দেশের মূল ইতিহাস থেকে জাতিকে দূরে সরিয়ে দেয়া। আমরা ২০২৪-এর গণঅভ্যুত্থানের মধ্য দিয়ে নতুন বাংলাদেশের স্বপ্ন দেখছি সেই ইতিহাস...</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-12 hero__side_box1">
+                  <div class="hero_content1">
+                    <div class="hero_img1">
+                      <img src="./asset/images/hero-img2.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class="hero_text1">
+                      <a href="#"><h1>উন্নত, সমৃদ্ধ-সুশাসিত বাংলাদেশ গঠনে আমরা অঙ্গীকারবদ্ধ: প্রধান উপদেষ্টা</h1></a>
+                    </div>
+                  </div>
+
+                  <div class="hero_content1">
+                    <div class="hero_img1">
+                      <img src="./asset/images/hero-img3.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class="hero_text1">
+                      <a href="#"><h1>ছাত্র-জনতার স্বপ্নের সাম্যের বাংলাদেশ গড়তে চাই: জামায়াত আমীর</h1></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 hero__side_box1">
+                  <div class="hero_content1">
+                    <div class="hero_img1">
+                      <img src="./asset/images/hero-img4.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class="hero_text1">
+                      <a href="#"><h1>কবি হেলাল হাফিজের মৃত্যুতে বিএনপি মহাসচিবের শোক</h1></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 hero__side_box1">
+                  <div class="hero_content1">
+                    <div class="hero_img1">
+                      <img src="./asset/images/hero-img5.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class="hero_text1">
+                      <a href="#"><h1>সেনা হত্যার ঘটনায় গ্রেফতার ১০</h1></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 hero__side_box1">
+                  <div class="hero_content1">
+                    <div class="hero_img1">
+                      <img src="./asset/images/hero-img6.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class="hero_text1">
+                      <a href="#"><h1>ডুয়েটের ১৪ ছাত্রলীগ নেতা আজীবন বহিস্কার</h1></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 hero__side_box1">
+                  <div class="hero_content1">
+                    <div class="hero_img1">
+                      <img src="./asset/images/hero-img7.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class="hero_text1">
+                      <a href="#"><h1>‘শব্দ দূষণের কারণে একটা অস্থির প্রজন্ম তৈরি হচ্ছে’</h1></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 hero__side_box1">
+                  <div class="hero_content1">
+                    <div class="hero_img1">
+                      <img src="./asset/images/hero-img8.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class="hero_text1">
+                      <a href="#"><h1>কবি হেলাল হাফিজের মৃত্রূতে প্রধান উপদেষ্টার গভীর শোক</h1></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 hero__side_box1">
+                  <div class="hero_content1">
+                    <div class="hero_img1">
+                      <img src="./asset/images/hero-img9.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class="hero_text1">
+                      <a href="#"><h1>‘সংখ্যালঘুদের সুরক্ষায় নিবিড়ভাবে কাজ করছে বাংলাদেশ-যুক্তরাষ্ট্র’</h1></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 hero_banner_box">
+                <div class="hero_banner_img">
+                  <img src="./asset/images/hero-banner-img.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="main_tabs">
+                  <div class="main_tabs_btns">
+                    <div class="main_tabs_items active">
+                      <li class="main_tabs_link">সর্বশেষ</li>
+                    </div>
+                    <div class="main_tabs_items">
+                      <li class="main_tabs_link">জনপ্রিয়</li>
+                    </div>
+                  </div>
+
+                  <div class="main_tabs_content active">
+                    <div class="main_tabs_text">
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> কবি হেলাল হাফিজের মৃত্যুতে বিএনপি মহাসচিবের শোক</p></a>
+
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> বৈষম্যবিরোধী ছাত্র আন্দোলন নেতাদের সঙ্গে কওমী শিক্ষার্থী প্রতিনিধিদের মতবিনিময়</p></a>
+
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> সেনা হত্যার ঘটনায় গ্রেফতার ১০</p></a>
+
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> উন্নত, সমৃদ্ধ-সুশাসিত বাংলাদেশ গঠনে আমরা অঙ্গীকারবদ্ধ: প্রধান উপদেষ্টা</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> কবি হেলাল হাফিজের মৃত্রূতে প্রধান উপদেষ্টার গভীর শোক</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> দেশের মূল ইতিহাস থেকে জাতিকে দূরে সরানোর ষড়যন্ত্র চলছে: মির্জা ফখরুল</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> ডুয়েটের ১৪ ছাত্রলীগ নেতা আজীবন বহিস্কার</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> ‘সংখ্যালঘুদের সুরক্ষায় নিবিড়ভাবে কাজ করছে বাংলাদেশ-যুক্তরাষ্ট্র’</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> সাঁতারে ফের রাফি-জুথির রেকর্ড</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> ছাত্র-জনতার স্বপ্নের সাম্যের বাংলাদেশ গড়তে চাই: জামায়াত আমীর</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> দ্রোহের কবি হেলাল হাফিজ মারা গেছেন</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> সিরিয়ার সীমান্তের সৈন্য সরাচ্ছে না ইসরাইল</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> খুলনা-মেহেরপুর-মাগুড়ায় বিএনপির আংশিক কমিটি</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> পাকিস্তান ছাড়লেন গিলেস্পি, নতুন কোচ আকিব</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> অলিম্পিকে ক্রিকেট থাকবে?</p></a>
+                    </div>
+                  </div>
+
+                  <div class="main_tabs_content">
+                    <div class="main_tabs_text">
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> গভর্নরকে একহাত নিলেন এবি ব্যাংকের চলতি এমডি সৈয়দ মিজান</p></a>
+
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> বাংলাদেশ-উইন্ডিজ ওয়ানডে লড়াই সন্ধ্যায়</p></a>
+
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> মহানগর দক্ষিণ বিএনপির নয়া কমিটিতে ওরা কারা?</p></a>
+
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> কলকতায় ধর্ষণের দায়ে আ.লীগের ৪ নেতা গ্রেফতার </p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> ভারতকে উড়িয়ে সিরিজে ফিরলো অস্ট্রেলিয়া</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> কানাডা থেকে এবি ব্যাংকের এমডির পদত্যাগ</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> গফরগাঁওয়ে বিদ্যালয়ের স্টাফের ওপর হামলার প্রতিবাদে মানববন্ধন</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> ভারতীয় অভিনেত্রীর গোপন ভিডিও ফাঁস!</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> চাকরি স্থায়ীকরণের দাবিতে আন্দোলনে মিল্কভিটার শ্রমিকরা</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> শেয়ারবাজারে সংকট, ক্ষুদ্র বিনিয়োগকারীরা বিপর্যস্ত</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> ইউরোপের ৮ দেশের ভিসা মিলবে ঢাকায়</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> ভারতকে হারিয়ে দ্বিতীয় এশিয়া কাপ জয় বাংলাদেশের</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> আবারও বেড়েছে সোনার দাম</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> দেশে এলো ৫২ হাজার টন সয়াবিন তেল</p></a>
+                      <a href="#" class="main_tabs_text_link"><p><i class="fa-light fa-clone"></i> বাংলাদেশে অবৈধ বিদেশির শীর্ষে ভারতীয়রা</p></a>
+                    </div>
+                  </div>
+
+                  <div class="main_tabs_btns1">
+                    <a href="#">সব খবর <i class="fa-solid fa-angles-right"></i></a>
+                  </div>
+                </div>
+
+
+                <div class="hero_banner_img">
+                  <img src="./asset/images/hero-banner-img1.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= HERO END =================-->
+
+
+        <!--================= ADDS START =================-->
+        <section class="adds_section">
+          <div class="adds_container">
+            <div class="hero_add_img">
+              <a href="#"><img src="./asset/images/adds-img1.gif" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+        </section>
+        <!--================= ADDS END =================-->
+
+
+
+        <!--================= JATIO START =================-->
+        <section class="jatio_section">
+
+          <div class="main_box">
+            <div class="main_heading">
+              <a href="#">
+                <h2>জাতীয়</h2>
+              </a>
+            </div>
+          </div>
+
+          <div class="jatio_container">
+            <div class="jatio_row">
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/jatio-img1.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">নির্বাচন নিয়ে রোডম্যাপ স্পষ্ট: প্রধান উপদেষ্টার প্রেস সচিব</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/jatio-img2.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">হাসিনার সেই পিয়নের অ্যাকাউন্টে জমা হয় ৬২৬ কোটি টাকা</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/jatio-img3.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">হাসিনা–রেহানা–জয়ের দুর্নীতি অনুসন্ধানে দুদক</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/jatio-img4.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">জাতীয় নির্বাচনের জন্য প্রস্তুত কমিশন: সিইসি </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/jatio-img5.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">রেলপথ ছাড়লেন আন্দোলনকারীরা, বেতন না পেলে ফের আন্দোলন</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= JATIO END =================-->
+
+
+        <!--================= ADDS START =================-->
+        <section class="adds_section">
+          <div class="adds_container">
+            <div class="hero_add_img">
+              <a href="#"><img src="./asset/images/adds-img2.gif" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+        </section>
+        <!--================= ADDS END =================-->
+
+
+
+
+        <!--================= ORTHO START =================-->
+        <section class="ortho_section">
+
+          <div class="ortho_container">
+            <div class="row ortho_row">
+              <div class="col-lg-9 col-md-12 col-sm-12 ortho_main_box">
+                <div class="main_box">
+                  <div class="main_heading">
+                    <a href="#">
+                      <h2>অর্থ-বাণিজ্য</h2>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 ortho_box">
+                    <div class="ortho_content">
+                      <div class="ortho_img">
+                        <div class="ortho_img_box">
+                          <img src="./asset/images/ortho-img1.jpg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+  
+                      <div class="ortho_text">
+                        <div class="ortho_text_title">
+                          <a href="#">দুই সপ্তাহে রেমিট্যান্স এসেছে সাড়ে ১৬ হাজার কোটি টাকা</a>
+                        </div>
+  
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> জানুয়ারি থেকে ডিম-মুরগি উৎপাদন বন্ধের হুমকি</a>
+  
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> ‘শেখ হাসিনার আমলে মূল্যস্ফীতির সঠিক পরিসংখ্যান জানানো হয়নি’</a>
+
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> জানুয়ারি থেকে ডিম-মুরগি উৎপাদন বন্ধের হুমকি</a>
+  
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> ‘শেখ হাসিনার আমলে মূল্যস্ফীতির সঠিক পরিসংখ্যান জানানো হয়নি’</a>
+                      </div>
+                    </div>
+                  </div>
+  
+                <div class="col-lg-6 col-md-12 ortho_box1">
+                  <div class="ortho_content_box1">
+  
+                    <a href="#">
+                      <div class="ortho_content1">
+                      <div class="ortho_img1">
+                        <img src="./asset/images/ortho-img2.jpg" alt="" class="img-fluid">
+                      </div>
+  
+                      <div class="ortho_text1">
+                        <a href="#"><h2>সূচকের উত্থানে ৩০৪ কোটি টাকার লেনদেন</h2></a>
+                        <p>দেশের প্রধান পুঁজিবাজার ঢাকা স্টক এক্সচেঞ্জে (ডিএসই) সপ্তাহের প্রথম কার্যদিবসে মূল্যসূচকের</p>
+                      </div>
+                      </div>
+                    </a>
+  
+                    <a href="#">
+                      <div class="ortho_content1">
+                        <div class="ortho_img1">
+                          <img src="./asset/images/ortho-img3.jpg" alt="" class="img-fluid">
+                        </div>
+  
+                        <div class="ortho_text1">
+                          <a href="#"><h2>আগামী বাজেটে প্রণোদনা কমানো হবে: অর্থ উপদেষ্টা</h2></a>
+                          <p>আগামী অর্থবছরের (২০২৫-২৬) বাজেটে ব্যবসায়ীদের জন্য প্রণোদনা কমানোর কথা</p>
+                        </div>
+                      </div>
+                    </a>
+  
+                    <a href="#">
+                      <div class="ortho_content1">
+                        <div class="ortho_img1">
+                          <img src="./asset/images/ortho-img4.jpg" alt="" class="img-fluid">
+                        </div>
+  
+                        <div class="ortho_text1">
+                          <a href="#"><h2>আলু-পেঁয়াজে স্বস্তি ফিরলেও তেল নিয়ে তেলেসমাতি</h2></a>
+                          <p>ঘন কুয়াশায় উনুনের ধোঁয়ার মতো ভোরের স্নিগ্ধ আলো। গাছের ডগায় শিশিরের পরশ দিয়ে প্রকৃতি</p>
+                        </div>
+                      </div>
+                    </a>
+  
+                    <a href="#">
+                      <div class="ortho_content1">
+                        <div class="ortho_img1">
+                          <img src="./asset/images/ortho-img5.jpg" alt="" class="img-fluid">
+                        </div>
+  
+                        <div class="ortho_text1">
+                          <a href="#"><h2>আবারও বেড়েছে সোনার দাম</h2></a>
+                          <p>দেশের বাজারে আবারও বাড়ানো হয়েছে সোনার দাম। স্থানীয় বাজারে তেজাবী সোনার দাম বাড়ার পরিপ্রেক্ষিতে এ দাম বাড়ানো হয়েছে।</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 ortho_banner_box">
+
+                <div class="main_heading1">
+                  <a href="#"><h2>ভিডিওগ্যালারী</h2></a>
+                  <span class="heading_line"></span>
+                </div>
+
+                <div class="swiper ortho_banner_container">
+                  <div class="swiper-wrapper ortho_banner_row">
+                    <div class="swiper-slide ortho_banner_content">
+                      <div class="ortho_banner_img">
+                        <img src="./asset/images/ortho-banner-img1.jpg" alt="" class="img-fluid">
+
+                        <div class="ortho_banner_play">
+                          <div class="ortho_banner_play_box">
+                            <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="ortho_banner_text">
+                        <a href="#">দুদকের চার্জশিট।। সাংবাদিকের প্রশ্ন এজাহারের ১৩৬ কোটি টাকা কীভাবে ১৭ কোটি হলো ?</a>
+                      </div>
+
+                      <div class="ortho_banner_arrows">
+                        <div class="ortho_banner_arrows_box">
+                          <i class="fa-regular fa-angle-left"></i>
+                          <i class="fa-regular fa-angle-right"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide ortho_banner_content">
+                      <div class="ortho_banner_img">
+                        <img src="./asset/images/ortho-banner-img1.jpg" alt="" class="img-fluid">
+
+                        <div class="ortho_banner_play">
+                          <div class="ortho_banner_play_box">
+                            <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="ortho_banner_text">
+                        <a href="#">দুদকের চার্জশিট।। সাংবাদিকের প্রশ্ন এজাহারের ১৩৬ কোটি টাকা কীভাবে ১৭ কোটি হলো ?</a>
+                      </div>
+
+                      <div class="ortho_banner_arrows">
+                        <div class="ortho_banner_arrows_box">
+                          <i class="fa-regular fa-angle-left"></i>
+                          <i class="fa-regular fa-angle-right"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide ortho_banner_content">
+                      <div class="ortho_banner_img">
+                        <img src="./asset/images/ortho-banner-img1.jpg" alt="" class="img-fluid">
+
+                        <div class="ortho_banner_play">
+                          <div class="ortho_banner_play_box">
+                            <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="ortho_banner_text">
+                        <a href="#">দুদকের চার্জশিট।। সাংবাদিকের প্রশ্ন এজাহারের ১৩৬ কোটি টাকা কীভাবে ১৭ কোটি হলো ?</a>
+                      </div>
+
+                      <div class="ortho_banner_arrows">
+                        <div class="ortho_banner_arrows_box">
+                          <i class="fa-regular fa-angle-left"></i>
+                          <i class="fa-regular fa-angle-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="ortho_banner_img1">
+                  <img src="./asset/images/ortho-banner-img4.gif" alt="" class="img-fluid">
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= ORTHO END =================-->
+
+
+        <!--================= ORTHO START =================-->
+        <section class="ortho_section">
+
+          <div class="ortho_container">
+            <div class="row ortho_row">
+              <div class="col-lg-9 col-md-12 col-sm-12 ortho_main_box">
+                <div class="main_box">
+                  <div class="main_heading">
+                    <a href="#">
+                      <h2>খেলা</h2>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 ortho_box">
+                    <div class="ortho_content">
+                      <div class="ortho_img">
+                        <div class="ortho_img_box">
+                          <img src="./asset/images/ortho-img6.jpg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+
+                      <div class="ortho_text">
+                        <div class="ortho_text_title">
+                          <a href="#">সাউদির অবসরের দিনে নিউজিল্যান্ডের রেকর্ড জয়</a>
+                        </div>
+
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> এবার বিজয় দিবস রাঙালো মেয়েরা</a>
+
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> কাকে কৃতিত্ব দিলেন ম্যাচ সেরা মেহেদী</a>
+
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> এবার বিজয় দিবস রাঙালো মেয়েরা</a>
+
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> কাকে কৃতিত্ব দিলেন ম্যাচ সেরা মেহেদী</a>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="col-lg-6 col-md-12 ortho_box1">
+                  <div class="ortho_content_box1">
+
+                    <a href="#">
+                      <div class="ortho_content1">
+                      <div class="ortho_img1">
+                        <img src="./asset/images/ortho-img7.jpg" alt="" class="img-fluid">
+                      </div>
+
+                      <div class="ortho_text1">
+                        <a href="#"><h2>রোমাঞ্চকর জয়ে বিজয় দিবস উযদাপন টাইগারদের</h2></a>
+                        <p>আজ ১৬ ডিসেম্বর বাংলাদেশের বিজয়ের দিন। ১৯৭১ সালের এ দিনে পাকিস্তানি হানাদার</p>
+                      </div>
+                      </div>
+                    </a>
+
+                    <a href="#">
+                      <div class="ortho_content1">
+                        <div class="ortho_img1">
+                          <img src="./asset/images/ortho-img8.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="ortho_text1">
+                          <a href="#"><h2>এবার তামিমের ৫৪ বলে ৯১ </h2></a>
+                          <p> ১৬ বছরের ক্যারিয়ারে ২৫ সেঞ্চুরি তামিম  ইবকালের। টেস্ট, ওয়ানডে ও টি-টোয়েন্টি- তিন ফরম্যাটেই এখন পর্যন্ত ব্যাটিংয়ে দেশ সেরা এ...</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="#">
+                      <div class="ortho_content1">
+                        <div class="ortho_img1">
+                          <img src="./asset/images/ortho-img9.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="ortho_text1">
+                          <a href="#"><h2>টি-টোয়েন্টি সিরিজ নিয়ে যা বললেন লিটন</h2></a>
+                          <p>অভিজ্ঞ ও সিনিয়র খেলোয়াড় ছাড়াই ওয়েস্ট ইন্ডিজ সফরে গেছে বাংলাদেশ দল। তারুণ্যনির্ভর দলটি ক্যারিবিয় দ্বীপে নিজেদের মেলে ধরতে</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="#">
+                      <div class="ortho_content1">
+                        <div class="ortho_img1">
+                          <img src="./asset/images/ortho-img10.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="ortho_text1">
+                          <a href="#"><h2>ড্রয়ে সুযোগ হাতছাড়া রিয়াল মাদ্রিদের</h2></a>
+                          <p>লা লিগার পয়েন্ট টেবিলের শীর্ষ স্থান দখলে জয়ের বিকল্প ছিলনা তাদের সামনে। কিন্তু সমীকরণ মেলাতে পারলো না রিয়াল মাদ্রিদ।...</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 ortho_banner_box1">
+                <div class="ortho_banner_img2">
+                  <img src="./asset/images/ortho-banner-img5.jpg" alt="" class="img-fluid">
+                </div>
+
+
+                <div class="ortho_banner_img2">
+                  <img src="./asset/images/ortho-banner-img6.jpg" alt="" class="img-fluid">
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= ORTHO END =================-->
+
+
+
+
+
+        <!--================= ADDS START =================-->
+        <section class="adds_section">
+          <div class="adds_container">
+            <div class="hero_add_img">
+              <a href="#"><img src="./asset/images/adds-img3.gif" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+        </section>
+        <!--================= ADDS END =================-->
+
+
+
+
+        <!--================= BINODON START =================-->
+        <section class="binodon_section">
+
+          <div class="main_box">
+            <div class="main_heading">
+              <a href="#">
+                <h2>বিনোদন</h2>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="binodon_container">
+            <div class="row binodon_row">
+              <div class="col-lg-5 col-md-12 binodon_box">
+                <div class="binodon_content_box">
+                  <div class="binodon_content">
+                    <div class="binodon_img">
+                      <img src="./asset/images/bonodon-img1.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="binodon_text">
+                      <div class="binodon_text_title">
+                        <a href="#">সোনাক্ষী সিনহার মুকেশ খান্নাকে হুঁশিয়ারি</a>
+                      </div>
+                      <p>২০১৯ সালে রামায়ণ সংক্রান্ত এক প্রশ্নের ভুল উত্তর দিয়েছিলেন সোনাক্ষী। সম্প্রতি সে প্রসঙ্গ তুলে শত্রুঘ্ন সিনহাকে...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-7 col-md-12 binodon_box1">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 binodon_side_box">
+                    <div class="binodon_side_content_box">
+                        <div class="row binodon_side_content">
+
+                          <div class="col-lg-5 col-sm-3 col-5 binodon_side_img">
+                            <img src="./asset/images/bonodon-img2.jpg" alt="" class="img-fluid">
+                          </div>
+
+                          <div class="col-lg-7 col-sm-9 col-7 binodon_side_text">
+                            <a href="#">শক্তি কাপুরকে অপহরণ পরিকল্পনার হোতা আটক</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 binodon_side_box">
+                    <div class="binodon_side_content_box">
+
+                      <div class="row binodon_side_content">
+                        <div class="col-lg-5 col-sm-3 col-5 binodon_side_img">
+                          <img src="./asset/images/bonodon-img3.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="col-lg-7 col-sm-9 col-7 binodon_side_text">
+                          <a href="#">যুক্তরাষ্ট্রে যে পুরস্কার পেলেন প্রভা</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 binodon_side_box">
+                    <div class="binodon_side_content_box">
+
+                      <div class="row binodon_side_content">
+                        <div class="col-lg-5 col-sm-3 col-5 binodon_side_img">
+                          <img src="./asset/images/bonodon-img4.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="col-lg-7 col-sm-9 col-7 binodon_side_text">
+                          <a href="#">তবলাবাদক ওস্তাদ জাকির হোসেন আর নেই</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 binodon_side_box">
+                    <div class="binodon_side_content_box">
+                      <div class="row binodon_side_content">
+                        <div class="col-lg-5 col-sm-3 col-5 binodon_side_img">
+                          <img src="./asset/images/bonodon-img5.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="col-lg-7 col-sm-9 col-7 binodon_side_text">
+                          <a href="#">চমক নিয়ে আসছেন বুবলী</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 binodon_side_box">
+                    <div class="binodon_side_content_box">
+                      <div class="row binodon_side_content">
+                        <div class="col-lg-5 col-sm-3 col-5 binodon_side_img">
+                          <img src="./asset/images/bonodon-img6.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="col-lg-7 col-sm-9 col-7 binodon_side_text">
+                          <a href="#">সুখবর দিলেন মিষ্টি জান্নাত</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 binodon_side_box">
+                    <div class="binodon_side_content_box">
+                      <div class="row binodon_side_content">
+                        <div class="col-lg-5 col-sm-3 col-5 binodon_side_img">
+                          <img src="./asset/images/bonodon-img7.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="col-lg-7 col-sm-9 col-7 binodon_side_text">
+                          <a href="#">কোয়েল মল্লিকের কমেন্টবক্স ভরে...</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 binodon_side_box">
+                    <div class="binodon_side_content_box">
+                      <div class="row binodon_side_content">
+                        <div class="col-lg-5 col-sm-3 col-5 binodon_side_img">
+                          <img src="./asset/images/bonodon-img8.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="col-lg-7 col-sm-9 col-7 binodon_side_text">
+                          <a href="#">হাসপাতালে ফারিন-পাভেল, দোয়া চাইলেন অমি</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 binodon_side_box">
+                    <div class="binodon_side_content_box">
+                      <div class="row binodon_side_content">
+                        <div class="col-lg-5 col-sm-3 col-5 binodon_side_img">
+                          <img src="./asset/images/bonodon-img9.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="col-lg-7 col-sm-9 col-7 binodon_side_text">
+                          <a href="#">সমালোচনার জবাবে যা বললেন জয়া</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!--================= BINODON END =================-->
+
+
+
+
+
+        <!--================= JATIO START =================-->
+        <section class="jatio_section">
+
+          <div class="main_box">
+            <div class="main_heading">
+              <a href="#">
+                <h2>রাজনীতি</h2>
+              </a>
+            </div>
+          </div>
+
+          <div class="jatio_container">
+            <div class="jatio_row">
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/rajneti-img1.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">বোবা হয়ে আছেন পলক, চাইলেন দোয়া</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/rajneti-img2.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">মোদির বক্তব্য বাংলাদেশের মুক্তিযুদ্ধ, মুক্তিযোদ্ধাদের অবমাননার শামিল: রিজভী</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/rajneti-img3.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">‘মোদির বক্তব্যের প্রতিবাদ জানাতে হবে অন্তর্বর্তী সরকারকে’</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/rajneti-img4.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">হাসপাতাল থেকে বাসায় ফিরেছেন মির্জা ফখরুল</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/rajneti-img5.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">গণতান্ত্রিক বাংলাদেশ প্রতিষ্ঠায় সংস্কারের তাগিদ তারেক রহমানের</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= JATIO END =================-->
+
+
+
+
+        <!--================= ADDS START =================-->
+        <section class="adds_section">
+          <div class="adds_container">
+            <div class="hero_add_img">
+              <a href="#"><img src="./asset/images/adds-img4.gif" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+        </section>
+        <!--================= ADDS END =================-->
+
+
+
+
+        <!--================= VIDEO START =================-->
+        <section class="video_section">
+
+          <div class="main_box">
+            <div class="main_heading">
+              <a href="#">
+                <h2>ভিডিও গ্যালারী</h2>
+              </a>
+            </div>
+          </div>
+
+          <div class="video_container">
+            <div class="row video_row">
+              <div class="col-lg-4 col-md-12 video_box">
+                <div class="video_content_box">
+                  <div class="video_content">
+                    <div class="video_img">
+                      <img src="./asset/images/video-img1.jpg" alt="" class="img-fluid">
+
+                      <div class="video_play_button">
+                        <div class="video_play_button_img">
+                          <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="video_text">
+                      <a href="#">‘পূর্ব তিমুরের প্রেসিডেন্টকে আনতে প্রধান উপদেষ্টাকে কেন বিমানবন্দরে যেতে হবে’</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 video_box">
+                <div class="video_content_box">
+                  <div class="video_content">
+                    <div class="video_img">
+                      <img src="./asset/images/video-img2.jpg" alt="" class="img-fluid">
+
+                      <div class="video_play_button">
+                        <div class="video_play_button_img">
+                          <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="video_text">
+                      <a href="#">সীমান্তে উত্তেজনা, হঠাৎ কেন আরাকান আর্মির সঙ্গে বাংলাদেশের যোগাযোগের প্রশ্ন উঠছে</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 video_box">
+                <div class="video_content_box">
+                  <div class="video_content">
+                    <div class="video_img">
+                      <img src="./asset/images/video-img3.jpg" alt="" class="img-fluid">
+
+                      <div class="video_play_button">
+                        <div class="video_play_button_img">
+                          <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="video_text">
+                      <a href="#">সংবাদ পর্যালোচনা: ৩২ বিচারপতির সরকারি বাসায় ‘অবিচার’</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video_container">
+            <div class="row video_row">
+              <div class="col-lg-3 col-md-12 video_box">
+                <div class="video_content_box">
+                  <div class="video_content">
+                    <div class="video_img">
+                      <img src="./asset/images/video-img4.jpg" alt="" class="img-fluid">
+
+                      <div class="video_play_button">
+                        <div class="video_play_button_img">
+                          <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="video_text">
+                      <a href="#">সংবাদ পর্যালোচনা: পিয়ন ঝাড়ুদার কম্পিউটার অপারেটর সবাই শিক্ষক!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 video_box">
+                <div class="video_content_box">
+                  <div class="video_content">
+                    <div class="video_img">
+                      <img src="./asset/images/video-img5.jpg" alt="" class="img-fluid">
+
+                      <div class="video_play_button">
+                        <div class="video_play_button_img">
+                          <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="video_text">
+                      <a href="#">১৫ মিনিটে বাংলাদেশ দখল: হুশিয়ারি তৃণমূল নেতার</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 video_box">
+                <div class="video_content_box">
+                  <div class="video_content">
+                    <div class="video_img">
+                      <img src="./asset/images/video-img6.jpg" alt="" class="img-fluid">
+
+                      <div class="video_play_button">
+                        <div class="video_play_button_img">
+                          <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="video_text">
+                      <a href="#">আটক ৭৮ বাংলাদেশি নাবিকের ছবি প্রকাশ করেছে ভারতীয় কোস্টগার্ড</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 video_box">
+                <div class="video_content_box">
+                  <div class="video_content">
+                    <div class="video_img">
+                      <img src="./asset/images/video-img7.jpg" alt="" class="img-fluid">
+
+                      <div class="video_play_button">
+                        <div class="video_play_button_img">
+                          <a href="#"><img src="./asset/images/play-button.webp" alt="" class="img-fluid"></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="video_text">
+                      <a href="#">ভারত শেখ হাসিনাকে ফেরত পাঠাবে, আশা টবি ক্যাডম্যানের</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= VIDEO END =================-->
+
+
+        <!--================= JATIO START =================-->
+        <section class="jatio_section">
+
+          <div class="main_box">
+            <div class="main_heading">
+              <a href="#">
+                <h2>কৃষি ও পরিবেশ</h2>
+              </a>
+            </div>
+          </div>
+
+          <div class="jatio_container">
+            <div class="jatio_row">
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/kishi-img1.jpeg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">৮ হাঁস জীবনের মোড় ঘোরালো লেবু মিয়ার</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/kishi-img2.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">দেশে চার মাত্রায় ভূমিকম্প অনুভূত</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/kishi-img3.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">জানুয়ারিতে তাপমাত্রা নামতে পারে ৩ ডিগ্রিতে</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/kishi-img4.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">‘শব্দ দূষণের কারণে একটা অস্থির প্রজন্ম তৈরি হচ্ছে’</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/kishi-img5.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">আসছে শৈত্যপ্রবাহ, বাড়বে শীতের তীব্রতা</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= JATIO END =================-->
+
+
+
+        <!--================= ADDS START =================-->
+        <section class="adds_section">
+          <div class="adds_container">
+            <div class="hero_add_img">
+              <a href="#"><img src="./asset/images/adds-img6.gif" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+        </section>
+        <!--================= ADDS END =================-->
+
+
+        <!--================= ORTHO START =================-->
+        <section class="ortho_section">
+
+          <div class="ortho_container">
+            <div class="row ortho_row">
+              <div class="col-lg-9 col-md-12 col-sm-12 ortho_main_box">
+                <div class="main_box">
+                  <div class="main_heading">
+                    <a href="#">
+                      <h2>আন্তর্জাতিক</h2>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 ortho_box">
+                    <div class="ortho_content">
+                      <div class="ortho_img">
+                        <div class="ortho_img_box">
+                          <img src="./asset/images/antorjatik-img1.gif" alt="" class="img-fluid">
+                        </div>
+                      </div>
+
+                      <div class="ortho_text">
+                        <div class="ortho_text_title">
+                          <a href="#">ফের ভারতীয় পণ্যে উচ্চ শুল্ক আরোপের হুমকি ট্রাম্পের</a>
+                        </div>
+
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> মার্কিন ব্রিফিংয়ে উঠল আসাম-ত্রিপুরা দখলের বিষয়</a>
+
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> কুয়েত-সৌদিতে তাপমাত্রা নেমেছে ৩ ডিগ্রিতে</a>
+
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> ১ লাখ মানুষকে হত্যা করে গণকবর দেয় বাশার </a>
+
+                        <a href="#" class="ortho_text_link"><i class="fa-light fa-clone"></i> মার্কিন ব্রিফিংয়ে উঠল আসাম-ত্রিপুরা দখলের বিষয়</a>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="col-lg-6 col-md-12 ortho_box1">
+                  <div class="ortho_content_box1">
+
+                    <a href="#">
+                      <div class="ortho_content1">
+                      <div class="ortho_img1">
+                        <img src="./asset/images/antorjatik-img2.jpg" alt="" class="img-fluid">
+                      </div>
+
+                      <div class="ortho_text1">
+                        <a href="#"><h2>পাকিস্তান-চট্টগ্রাম কনটেইনার যোগাযোগে বড় পরিবর্তন</h2></a>
+                        <p>পাকিস্তান থেকে আবারও চট্টগ্রাম বন্দরে আসছে জাহাজ ‘এমভি ইউয়ান জিয়াং ফা...</p>
+                      </div>
+                      </div>
+                    </a>
+
+                    <a href="#">
+                      <div class="ortho_content1">
+                        <div class="ortho_img1">
+                          <img src="./asset/images/antorjatik-img3.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="ortho_text1">
+                          <a href="#"><h2>পঞ্চগড়ে সর্বনিম্ন তাপমাত্রা রেকর্ড </h2></a>
+                          <p>টানা শৈত্যপ্রবাহে দুর্ভোগ পোহাচ্ছে উত্তরের হিমাঞ্চল জেলা পঞ্চগড়ের মানুষ। সন্ধ্যা থেকে সকাল পর্যন্ত সময়ে কাঁপছে তীব্র শীতে।</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="#">
+                      <div class="ortho_content1">
+                        <div class="ortho_img1">
+                          <img src="./asset/images/antorjatik-img4.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="ortho_text1">
+                          <a href="#"><h2>ইজতেমা ময়দানে দুই গ্রুপের সংঘর্ষে নিহত ৩</h2></a>
+                          <p>গাজীপুরের টঙ্গীর বিশ্ব ইজতেমা ময়দান দখলকে কেন্দ্র করে মাওলানা জোবায়ের ও...</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="#">
+                      <div class="ortho_content1">
+                        <div class="ortho_img1">
+                          <img src="./asset/images/antorjatik-img5.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="ortho_text1">
+                          <a href="#"><h2>ফের চালু হচ্ছে পঞ্চগড়ের ভারি শিল্প চিনিকল</h2></a>
+                          <p>চার বছর বন্ধ থাকার পর বর্তমান অন্তর্বর্তী সরকারের উদ্যোগে আবারও চালু হচ্ছে।...</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 ortho_banner_box1">
+                <div class="ortho_banner_img2">
+                  <img src="./asset/images/ortho-banner-img5.jpg" alt="" class="img-fluid">
+                </div>
+
+
+                <div class="ortho_banner_img2">
+                  <img src="./asset/images/ortho-banner-img6.jpg" alt="" class="img-fluid">
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= ORTHO END =================-->
+
+
+
+
+
+        <!--================= JATIO START =================-->
+        <section class="jatio_section">
+
+          <div class="main_box">
+            <div class="main_heading">
+              <a href="#">
+                <h2>জনশক্তি-প্রবাস</h2>
+              </a>
+            </div>
+          </div>
+
+          <div class="jatio_container">
+            <div class="jatio_row">
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/probash-img1.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">সৌদি প্রবাসীদের সতর্ক থাকার আহবান বাংলাদেশ দূতাবাসের</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/probash-img2.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">‘তারেক রহমানের নেতৃত্বে নতুন বাংলাদেশ অপেক্ষমাণ’</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/probash-img3.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">বাংলাদেশিদের জন্য থাইল্যান্ডের ই-ভিসা চালু বৃহস্পতিবার</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/probash-img4.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">লেবানন থেকে ফিরলেন আরও ৮৫ বাংলাদেশি</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="jatio_box">
+                <div class="jatio_content">
+                  <div class="jatio_img">
+                    <img src="./asset/images/probash-img2.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="jatio_text">
+                    <a href="#">‘তারেক রহমানের নেতৃত্বে নতুন বাংলাদেশ অপেক্ষমাণ’</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= JATIO END =================-->
+
+
+
+        <!--================= ADDS START =================-->
+        <section class="adds_section">
+          <div class="adds_container">
+            <div class="hero_add_img">
+              <a href="#"><img src="./asset/images/adds-img7.gif" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+        </section>
+        <!--================= ADDS END =================-->
+
+
+
+        <!--================= BLOG START =================-->
+        <section class="blog_section">
+
+          <div class="blog_container">
+            <div class="row blog_row">
+              <div class="col-lg-4 col-md-12 blog_box">
+                <h2 class="TopTitle">
+                  <a href="#">গণমাধ্যম</a>
+                  <span class="TopTitleLine"></span>
+                </h2>
+                <div class="blog_content_box">
+                  <div class="blog_content">
+                    <div class="blog_img">
+                      <img src="./asset/images/blog-img1.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="blog_text">
+                      <div class="blog_title">
+                        <a href="#">ক্রীড়া সাংবাদিক মাহমুদ মারা গেছেন</a>
+                      </div>
+
+
+                      <div class="blog_text_box">
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> হেলাল হাফিজের প্রথম জানাজা অনুষ্ঠিত</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> সাংবাদিকদের বেতন পরিশোধে টালবাহানা-চাকরিচ্যুতিতে ডিইউজের উদ্বেগ</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> গান বাংলা টিভির সম্প্রচার বন্ধ</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 blog_box">
+                <h2 class="TopTitle">
+                  <a href="#">শিক্ষা</a>
+                  <span class="TopTitleLine"></span>
+                </h2>
+                <div class="blog_content_box">
+                  <div class="blog_content">
+                    <div class="blog_img">
+                      <img src="./asset/images/blog-img2.jpeg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="blog_text">
+                      <div class="blog_title">
+                        <a href="#">ইবি ছাত্রদলের ১০ দফা দাবি ভিসি বরাবর</a>
+                      </div>
+
+
+                      <div class="blog_text_box">
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> এআই যুগে বই পড়ার প্রাসঙ্গিকতা নিয়ে মাভাবিপ্রবিতে ওয়েবিনার</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> স্কুলে ভর্তির ফল প্রকাশ,‌ দেখবেন যেভাবে</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> স্কুল ভর্তির লটারি আজ</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 blog_box">
+                <h2 class="TopTitle">
+                  <a href="#">ধর্ম</a>
+                  <span class="TopTitleLine"></span>
+                </h2>
+                <div class="blog_content_box">
+                  <div class="blog_content">
+                    <div class="blog_img">
+                      <img src="./asset/images/blog-img3.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="blog_text">
+                      <div class="blog_title">
+                        <a href="#">আমার মাতৃভূমিতে কেন ভেদাভেদের কালোছায়া: মিজানুর রহমান আজহারী</a>
+                      </div>
+
+
+                      <div class="blog_text_box">
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> মহানবী নিয়ে কটুক্তি: শিশির ভট্টাচার্যের ফাঁসি দাবি স্টুডেন্টস ফর সভারেন্টির</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> আল্লাহর রহমত থেকে বঞ্চিত যেসব মানুষ </a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> আত্মীয়তার সৌহার্দ্য রক্ষার পুরস্কার</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 blog_box">
+                <h2 class="TopTitle">
+                  <a href="#">অপরাধ-দুদক</a>
+                  <span class="TopTitleLine"></span>
+                </h2>
+                <div class="blog_content_box">
+                  <div class="blog_content">
+                    <div class="blog_img">
+                      <img src="./asset/images/blog-img4.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="blog_text">
+                      <div class="blog_title">
+                        <a href="#">অবশেষে মিলল বহু ‘আয়নাঘর’</a>
+                      </div>
+
+
+                      <div class="blog_text_box">
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> এনবিআরের মতিসহ তার দ্বিতীয় স্ত্রীর বিরুদ্ধে দুই মামলা</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> বেনজিরসহ পরিবারের বিরুদ্ধে দুদকের চার মামলা</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> রূপালীর এমডি হতে সোনালীর ডিএমডি ওয়াহিদের জালিয়াতি!</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 blog_box">
+                <h2 class="TopTitle">
+                  <a href="#">চাকরি</a>
+                  <span class="TopTitleLine"></span>
+                </h2>
+                <div class="blog_content_box">
+                  <div class="blog_content">
+                    <div class="blog_img">
+                      <img src="./asset/images/blog-img5.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="blog_text">
+                      <div class="blog_title">
+                        <a href="#">ইবনে সিনায় নিয়োগ বিজ্ঞপ্তি, থাকছে নানা সুবিধা</a>
+                      </div>
+
+
+                      <div class="blog_text_box">
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> বাংলাদেশ বিজ্ঞান ও শিল্প গবেষণা পরিষদে নিয়োগ</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> শিক্ষা প্রকৌশল অধিদফতরে ৬৫৮ পদে নিয়োগ</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> এসকেএফ ফার্মায় নিয়োগ বিজ্ঞপ্তি, লাগবে না অভিজ্ঞতা</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 blog_box">
+                <h2 class="TopTitle">
+                  <a href="#">বিজ্ঞান ও প্রযুক্তি</a>
+                  <span class="TopTitleLine"></span>
+                </h2>
+                <div class="blog_content_box">
+                  <div class="blog_content">
+                    <div class="blog_img">
+                      <img src="./asset/images/blog-img6.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="blog_text">
+                      <div class="blog_title">
+                        <a href="#">চার মাসে মুঠোফোন ব্যবহারকারীর সংখ্যা কমেছে ৬১ লাখ</a>
+                      </div>
+
+
+                      <div class="blog_text_box">
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> ৬ লাখ অ্যাকাউন্ট বন্ধ বাংলাদেশে</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> মেসেজ রিপ্লাই ভুলে গেলে নোটিফিকেশন পাঠাবে হোয়াটসঅ্যাপ</a>
+
+                        <a href="#" class="blog_text_link"><i class="fa-light fa-clone"></i> স্বাভাবিক হলো ফেসবুক-ইনস্টাগ্রাম-হোয়াটসঅ্যাপ</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= BLOG END =================-->
+
+
+
+
+        <!--================= PHOTO START =================-->
+        <section class="photo_section">
+          <div class="main_box">
+            <div class="main_heading">
+              <a href="#">
+                <h2>ফটো গ্যালারী</h2>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="photo_container">
+            <div class="row photo_row">
+              <div class="col-lg-6 col-md-12 photo_box">
+                <a href="#">
+                  <div class="photo_content">
+                    <div class="photo_img">
+                      <img src="./asset/images/photo-img1.jpg" alt="" class="img-fluid">
+
+                      <div class="photo_ovarlay"></div>
+
+                      <div class="photo_img_content">
+                        <a href="#">তারুণ্যের রঙে রঙিন হয়ে উঠুক বাংলাদেশ</a>
+                      </div>
+
+                      <div class="photo_img_icon">
+                        <i class="fa-solid fa-image"></i>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-6 col-md-12 photo_box">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-12 col-md-12 photo_box_side">
+                    <a href="#">
+                      <div class="photo_content">
+                        <div class="photo_img">
+                          <img src="./asset/images/photo-img2.jpg" alt="" class="img-fluid">
+    
+                          <div class="photo_ovarlay"></div>
+    
+                          <div class="photo_img_content1">
+                            <a href="#">অন্তর্বর্তী সরকারের ‍উপদেষ্টাদের পরিচয়, কে পেলেন কোন মন্ত্রণালয়</a>
+                          </div>
+    
+                          <div class="photo_img_icon">
+                            <i class="fa-solid fa-image"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-lg-6 col-sm-12 col-md-12 photo_box_side">
+                    <a href="#">
+                      <div class="photo_content">
+                        <div class="photo_img">
+                          <img src="./asset/images/photo-img3.jpg" alt="" class="img-fluid">
+    
+                          <div class="photo_ovarlay"></div>
+    
+                          <div class="photo_img_content1">
+                            <a href="#">রাজধানীতে পরিচ্ছন্নতা অভিযানে শিক্ষার্থীরা</a>
+                          </div>
+    
+                          <div class="photo_img_icon">
+                            <i class="fa-solid fa-image"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-lg-6 col-sm-12 col-md-12 photo_box_side">
+                    <a href="#">
+                      <div class="photo_content">
+                        <div class="photo_img">
+                          <img src="./asset/images/photo-img4.jpg" alt="" class="img-fluid">
+    
+                          <div class="photo_ovarlay"></div>
+    
+                          <div class="photo_img_content1">
+                            <a href="#">ছিন্নমূল কুকুরদের পাশে ইন্টার্ন চিকিৎসক</a>
+                          </div>
+    
+                          <div class="photo_img_icon">
+                            <i class="fa-solid fa-image"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-lg-6 col-sm-12 col-md-12 photo_box_side">
+                    <a href="#">
+                      <div class="photo_content">
+                        <div class="photo_img">
+                          <img src="./asset/images/photo-img5.jpg" alt="" class="img-fluid">
+    
+                          <div class="photo_ovarlay"></div>
+    
+                          <div class="photo_img_content1">
+                            <a href="#">কবিতা-গানে শান্তিপূর্ণ প্রতিবাদ</a>
+                          </div>
+    
+                          <div class="photo_img_icon">
+                            <i class="fa-solid fa-image"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--================= PHOTO END =================-->
+
+
+
+
+        <!--================= FOOTER START =================-->
+        <footer class="footer_section">
+
+          <div class="footer_container">
+            <div class="row footer_row">
+              <div class="col-lg-4 col-md-12 footer_box">
+                <div class="footer_content">
+                  <div class="footer_logo">
+                    <a href="index.html"><img src="./asset/images/logo1.jpg" alt="" class="img-fluid"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 footer_box">
+                <div class="footer_content">
+                  <div class="footer_text">
+                    <p><b>প্রধান সম্পাদক:</b> আফজাল বারী</p>
+                    <p>প্রোমিতা আফরিন কর্তৃক সম্পাদিত ও প্রকাশিত</p>
+                    <p><b>অফিস:</b> সি-৫০১, ৬ষ্ঠতলা, আল রাজী কমপ্লেক্স, ১৬৬-১৬৭</p>
+                    <p>শহীদ সৈয়দ নজরুল ইসলাম সরণি, পুরানা পল্টন, ঢাকা-১০০০</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 footer_box">
+                <div class="footer_content">
+                  <div class="footer_text">
+                    <p><b>যোগাযোগ:</b> <a href="#"> ০২-৫৫১১১৬৬০, ০১৬০০৩৪৪৩৭০-৭১,</a></p>
+                    <p><b>নিউজ রুম:</b> <a href="#"> ০১৬০০৩৪৪৩৭২,</a></p>
+                    <p><b>বিজ্ঞাপন:</b> <a href="#"> ০১৬০০৩৪৪৩৭৩</a></p>
+                    <p><b>E-mail:</b> <a href="#"> apandeshnews@gmail.com</a></p>
+                  </div>
+
+                  <div class="footer_social">
+                    <p>ফলো করুন <a href="#">সমকাল</a>-এর খবর</p>
+                    <div class="footer_icon">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--================= FOOTER END =================-->
+
+
+        <!--================= FOOTER CREATE START =================-->
+        <section class="create_section">
+            <div class="footer_create">
+              <div class="footer_create_box">
+                <p>© ২০২৪ | আপন দেশ ডটকম কর্তৃক সর্বসত্ব ® সংরক্ষিত | উন্নয়নে <a href="#">Iqbal Hasan</a></p>
+              </div>
+            </div>
+        </section>
+        <!--================= FOOTER CREATE END =================-->
+
+
+
+
+
+
+        <!--================= BACK TO BUTTON START =================-->
+        <div id="scrolltotop" class="back_to_top">
+          <span class="go_up"><i class="fa-solid fa-house-chimney"></i></span>
+        </div>
+        <!--================= BACK TO BUTTON END =================-->
+
+
+
+
+
+        <!--================= HEAD LINE START =================-->
+        <section class="head_line_section">
+
+          <div class="container-fluid">
+          <div class="DScroll">
+            <div class="DScrollSection">
+              <div class="ScrollHeading d-flex justify-content-center">
+                <p>শীর্ষ সংবাদ:</p>
+              </div>
+              <div class="ScrollSubject">
+                <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                  <a href="#"><span></span> রূপালী ব্যাংকে ডাকাত, ঘিরে রেখেছে পুলিশ-জনতা</a> 
+                  <a href="#"><span></span> আট কর্মকর্তার বিরুদ্ধে দুই মাসে তদন্ত শেষ করার নির্দেশ</a> 
+                  <a href="#"><span></span> নির্বাচন নিয়ে প্রধান উপ‌দেষ্টার বক্তব্যে বিএন‌পি হতাশ</a> 
+                  <a href="#"><span></span> সাবেক এমপি রাগিবুল হাসান গ্রেফতার</a> 
+                  <a href="#"><span></span> ট্রাক-অটোরিকশা সংঘর্ষে নারী-শিশুসহ নিহত ৫</a> 
+                  <a href="#"><span></span> গুমের সঙ্গে জড়িত ২০ কর্মকর্তার দেশত্যাগে নিষেধাজ্ঞা</a> 
+                  <a href="#"><span></span> ইসরায়েলি হামলায় আরও ৩৮ ফিলিস্তিনি নিহত</a> 
+                </marquee>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+        <!--================= HEAD LINE END =================-->
+
+
+
+
+
+
+
+
+
+    <!--Bootstrap Js link-->
+    <script src="./bootstrap/js/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!--AOS Animation cdn link-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <!--Swiper js file link-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- fslightbox cdn link-->
+    <script src="./asset/fslightbox.js"></script>
+
+
+
+
+      <!-- jquery link -->
+      <script src="./asset/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <script src="./asset/jquery.counterup.min.js"></script>
+      <script src="./asset/jquery.magnific-popup.min.js"></script>
+  
+
+    <!-- Javascript link -->
+    <script src="./asset/script.js"></script>
+    <script src="./asset/main.js"></script>
+
+</body>
+</html>

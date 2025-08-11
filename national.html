@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+
+    <link rel="shortcut icon" href="./asset/images/favicon.png" type="image/x-icon">
+
+    <!-- jquery link -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
+    <!--AOS Animation cdn link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!--Swiper cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+  <!-- font awesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous"    referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+
+    <!-- remixicon cdn link
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/> -->
+
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    
+
+    <link rel="stylesheet" href="./asset/magnific-popup.css">
+
+
+    <!-- custom CSS file link -->
+    <link rel="stylesheet" href="./asset/sass/main.css">
+
+
+
+</head>
+<body>
+
+
+        <!--================= HEADER START =================-->
+        <header class="main_header">
+          <div class="main_header_wrapper">
+            <div class="main_header_menu">
+              <div class="main_header_menu">
+                <!-- <i class="fa-regular fa-bars" id="menuBtn"></i> -->
+                <i class="fa-light fa-bars-staggered" id="menuBtn"></i>
+              </div>
+
+              <div class="main_header_menu_text">
+                <p>মঙ্গলবার, ১০ ডিসেম্বর ২০২৪
+                  <br>
+                  ২৬ অগ্রহায়ণ ১৪৩১</p>
+              </div>
+            </div>
+
+            <div class="main_header_logo">
+              <a href="index.html"><img src="./asset/images/logo1.jpg" alt="" class="img-fluid"></a>
+            </div>
+
+            <div class="main_header_search">
+              <div class="search_bar">
+                <input type="text" placeholder="অনুসন্ধান...">
+                <div class="search_bar_icon">
+                  <i class="fa-regular fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="main_header_list" id="navBer">
+              <div class="main_header_list_wrapper">
+                <div class="close_menu">
+                  <i class="fa-regular fa-xmark" id="closeBtn"></i>
+                </div>
+
+                <li class="main_header_link"><a href="national.html">প্রথম পাতা</a></li>
+                <li class="main_header_link"><a href="#">বাংলাদেশ</a></li>
+                <li class="main_header_link"><a href="#">স্বৈরাচার আমলনামা</a></li>
+                <li class="main_header_link"><a href="#">রাজনীতি</a></li>
+                <li class="main_header_link"><a href="#">সারাদেশ</a></li>
+                <li class="main_header_link"><a href="#">বিশ্ব</a></li>
+                <li class="main_header_link"><a href="#">আইন ও অধিকার</a></li>
+                <li class="main_header_link"><a href="#">বাণিজ্য</a></li>
+                <li class="main_header_link"><a href="#">মতামত</a></li>
+                <li class="main_header_link">
+                  <a href="#">আরও <i class="fa-solid fa-angle-down dropMenu"></i></a>
+                  <ul class="dropDown_menu ">
+                    <li><a href="#">সম্পাদকীয়</a></li>
+                    <li><a href="#">শিক্ষা</a></li>
+                    <li><a href="#">খেলাধুলা</a></li>
+                    <li><a href="#">বিনোদন</a></li>
+                    <li><a href="#">ধর্ম ও দর্শন</a></li>
+                    <li><a href="#">বিজ্ঞান ও প্রযুক্তি</a></li>
+                    <li><a href="#">ভ্রমণ</a></li>
+                    <li><a href="#">সাহিত্য</a></li>
+                    <li><a href="#">পরিবেশ ও কৃষি</a></li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!--================= HEADER END =================-->
+
+
+
+        <!--================= HEADER1 START =================-->
+        <section class="header" id="header">
+          <nav class="navBars">
+            <ul class="nav_menu">
+              <li class="nav_list"><a href="national.html" class="nav_link">প্রথম পাতা</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">বাংলাদেশ</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">স্বৈরাচার আমলনামা</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">রাজনীতি</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">সারাদেশ</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">বিশ্ব</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">আইন ও অধিকার</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">বাণিজ্য</a></li>
+              <li class="nav_list"><a href="#" class="nav_link">মতামত</a></li>
+              <li class="nav_list">
+                <a href="#" class="nav_link">আরও <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="dropDown">
+                  <li><a href="#">সম্পাদকীয়</a></li>
+                  <li><a href="#">শিক্ষা</a></li>
+                  <li><a href="#">খেলাধুলা</a></li>
+                  <li><a href="#">বিনোদন</a></li>
+                  <li><a href="#">ধর্ম ও দর্শন</a></li>
+                  <li><a href="#">বিজ্ঞান ও প্রযুক্তি</a></li>
+                  <li><a href="#">ভ্রমণ</a></li>
+                  <li><a href="#">সাহিত্য</a></li>
+                  <li><a href="#">পরিবেশ ও কৃষি</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <!--================= HEADER1 END =================-->
+
+
+
+        <!--================= ADDS START =================-->
+        <section class="adds_section1">
+            <div class="adds_container1">
+                <div class="hero_add_img1">
+                <a href="#"><img src="./asset/images/adds-img9.jpg" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+        </section>
+        <!--================= ADDS END =================-->
+
+
+
+        <!--================= HERO START =================-->
+        <section class="national_hero_section">
+
+
+            <div class="national_hero_bretcum">
+                <div class="single_cat_info">
+                    <div class="single_cat_home">
+                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i> প্রচ্ছদ </a>
+                    </div>
+                    <div class="single_cat_cate">
+                        <a href="#" rel="category tag"><i class="fa-solid fa-list"></i> জাতীয়</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="national_hero_container">
+                <div class="row national_hero_row">
+                    <div class="col-lg-9 col-md-12 national_hero_box">
+                        <div class="national_hero_content_box">
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-12 col-12 national_hero_main_box">
+                                    <div class="national_hero_main_img">
+                                        <a href="national-details.html"><img src="./asset/images/national-img1.jpg" alt="" class="img-fluid"></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-sm-12 col-12 national_hero_main_box">
+                                    <div class="national_hero_main_content">
+                                        <div class="national_hero_main_text">
+                                            <div class="national_hero_main_text_title">
+                                                <a href="national-details.html">‘একাত্তরের ইতিহাসের মতো জুলাই অভ্যুত্থানের ইতিহাস যাতে বিকৃত না হয়’</a>
+                                            </div>
+
+                                            <p>তথ্য ও সম্প্রচার উপদেষ্টা নাহিদ ইসলাম বলেছেন, গত ৫৩ বছরে একাত্তরের স্বপ্ন বাস্তবায়ন হয়নি বলে ২৪-এর অভ্যুত্থান ঘটানো হয়েছে। জুলাই অভ্যুত্থানে গণমানুষ ও সাধারণ শিক্ষার্থীদের অংশ গ্রহণ এ ধরণের উৎসবে তুলে ধরা হোক এটাই চাই।...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="national_hero_content_box1">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img2.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">উপদেষ্টা হাসান আরিফের মরদেহের পাশে প্রধান উপদেষ্টা</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img3.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">উপদেষ্টা এ এফ হাসান আরিফ মারা গেছেন</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img4.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">সাড়ে ৩ ঘন্টার চেষ্টায় রেস্টুরেন্টের আগুন নিয়ন্ত্রণে</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img5.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">আনারের দেহাংশের সঙ্গে মিলেছে মেয়ের ডিএনএ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img6.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">রেস্টুরেন্টে আগুন নিয়ন্ত্রণে ১২ ইউনিট, ৭ জনকে জীবিত উদ্ধার</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img7.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">গাজায় ইসরায়েলি বর্বরতা বন্ধে সম্মিলিত পদক্ষেপের আহবান ড. ইউনূসের</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img8.png" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">আমার বক্তব্যের ভুল ব্যাখ্যা দেয়া হয়েছে: বদিউল আলম</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img9.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">কিডনি রোগীকে সাহায্য, আইফোন কিনতে ব্যাংকে ডাকাতির চেষ্টা</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img10.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">বদিউল আলমের বক্তব্য প্রত্যাখ্যান করল বৈষম্যবিরোধী ছাত্র আন্দোলন</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img11.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">রূপালী ব্যাংকে ডাকাত, ঘিরে রেখেছে পুলিশ-জনতা</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img12.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">পিলখানার ঘটনায় শেখ হাসিনাসহ ৫৭ জনের বিরুদ্ধে অভিযোগ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img13.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">ড. ইউনূসের সঙ্গে পাকিস্তানের প্রধানমন্ত্রীর বৈঠক</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img14.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">নির্বাচনে আ.লীগের অংশগ্রহণে বাধা দেখছি না: বদিউল আলম</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img15.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">ভাইরাল ভিডিওকে ’বাংলাদেশ সশস্ত্র জিহাদের নিরাপদ আশ্রয়স্থল’ বলে প্রচার জয়ের</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-12 national_hero_content_main_box1">
+                                    <div class="national_hero_content_main_content_box1">
+                                        <div class="national_hero_content_main_content1">
+                                            <div class="national_hero_content_main_img1">
+                                                <a href="#"><img src="./asset/images/national-img15.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+
+                                            <div class="national_hero_content_main_text1">
+                                                <a href="#">মিয়ানমার ইস্যুতে প্রতিবেশী দেশগুলোর মধ্যে বৈঠক</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="national_hero_btns_box">
+                            <button type="button" class="national_hero_btns">আরো পড়ুন</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-12 national_side_box">
+                        <div class="national_brand_box">
+                            <div class="row">
+                                <div class="col-sm-12 national_brand_content">
+                                    <div class="DFBPage mt-0">
+                                        <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/Apandeshcom-112090351304415" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=2689491844415645&amp;container_width=338&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FApandeshcom-112090351304415&amp;locale=en_GB&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span>
+                                            <iframe name="f104306a074f2b946" width="1000px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v4.0/plugins/page.php?adapt_container_width=true&amp;app_id=2689491844415645&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df83761405f394cb33%26domain%3Dwww.dailyapandesh.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.dailyapandesh.com%252Fffcb500b209ea6a9f%26relation%3Dparent.parent&amp;container_width=338&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FApandeshcom-112090351304415&amp;locale=en_GB&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"  class=""></iframe></span></div></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="national_sorbosesh_box">
+                            <div class="CategoryMostRead">
+                                <div class="LatestHeader"><p>সর্বশেষ</p></div>
+                                <ul class="DCatLatestInner">
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img1.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">৯ কোটি টাকার ক্রিষ্টাল আইস-হেরোইনসহ যুবক আটক</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img2.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">গুপ্তহত্যার প্রতিবাদসহ আ.লীগ নিষিদ্ধের দাবিতে মশাল মিছিল</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img3.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">ইউক্রেনে রুশ ক্ষেপণাস্ত্র হামলায় ছয় দেশের দূতাবাস তছনছ</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img4.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">উপদেষ্টা মাহফুজের ডিলিট করা পোস্টে ক্ষেপেছে দিল্লি</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img5.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">কবুল বলবে লিটন দাস</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img6.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">শিল্পকলায় ‘আষাঢ়স্য প্রথম দিবসে’</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img7.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">‘একাত্তরের ইতিহাসের মতো জুলাই অভ্যুত্থানের ইতিহাস যাতে বিকৃত না হয়’</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img8.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">স্কুলছাত্রীকে উত্ত্যক্তের দায়ে গাছে বেঁধে ছাত্রলীগ নেতাকে পেটালো জনতা</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img9.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">উপদেষ্টা হাসান আরিফের মরদেহের পাশে প্রধান উপদেষ্টা</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img10.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">বুয়েট শিক্ষার্থী হতাহতের ঘটনায় গ্রেফতার ৩</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img11.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">রাহুলের চরিত্রে টান দিল নারী এমপি</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img12.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">উপদেষ্টা এ এফ হাসান আরিফ মারা গেছেন</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img13.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">শুল্কবিহীন দুই কোটি টাকার ভারতীয় সিগারেটসহ আটক ১</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img14.gif" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">ভক্তদের অপেক্ষা করতে বললেন মৌনি</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img15.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">সাড়ে ৩ ঘন্টার চেষ্টায় রেস্টুরেন্টের আগুন নিয়ন্ত্রণে</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <div class="national_adds_box">
+                            <div class="national_adds_img">
+                                <a href="#"><img src="./asset/images/national-adds-img.jpg" alt="" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="national_sorbosesh_box">
+                            <div class="CategoryMostRead">
+                                <div class="LatestHeader"><p>জনপ্রিয়</p></div>
+                                <ul class="DCatLatestInner">
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img1.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">৯ কোটি টাকার ক্রিষ্টাল আইস-হেরোইনসহ যুবক আটক</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img2.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">গুপ্তহত্যার প্রতিবাদসহ আ.লীগ নিষিদ্ধের দাবিতে মশাল মিছিল</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img3.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">ইউক্রেনে রুশ ক্ষেপণাস্ত্র হামলায় ছয় দেশের দূতাবাস তছনছ</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img4.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">উপদেষ্টা মাহফুজের ডিলিট করা পোস্টে ক্ষেপেছে দিল্লি</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img5.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">কবুল বলবে লিটন দাস</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img6.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">শিল্পকলায় ‘আষাঢ়স্য প্রথম দিবসে’</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img7.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">‘একাত্তরের ইতিহাসের মতো জুলাই অভ্যুত্থানের ইতিহাস যাতে বিকৃত না হয়’</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img8.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">স্কুলছাত্রীকে উত্ত্যক্তের দায়ে গাছে বেঁধে ছাত্রলীগ নেতাকে পেটালো জনতা</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img9.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">উপদেষ্টা হাসান আরিফের মরদেহের পাশে প্রধান উপদেষ্টা</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img10.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">বুয়েট শিক্ষার্থী হতাহতের ঘটনায় গ্রেফতার ৩</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img11.jpg" alt="" class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">রাহুলের চরিত্রে টান দিল নারী এমপি</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img12.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">উপদেষ্টা এ এফ হাসান আরিফ মারা গেছেন</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img13.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">শুল্কবিহীন দুই কোটি টাকার ভারতীয় সিগারেটসহ আটক ১</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img14.gif" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">ভক্তদের অপেক্ষা করতে বললেন মৌনি</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="DCatLatestContent">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-5 DCatLatestContent_box">
+                                                    <div class="Imgresize"><figure class="ImgViewer"><picture class="FixingRatio"><img src="./asset/images/national-side-img15.jpg" alt=""  class="img-fluid img100 ImgRatio"></picture></figure></div>
+                                                </div>
+                                                <div class="col-lg-7 col-7 DCatLatestContent_box1">
+                                                    <h3 class="Title">সাড়ে ৩ ঘন্টার চেষ্টায় রেস্টুরেন্টের আগুন নিয়ন্ত্রণে</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </li>
+                            </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================= HERO END =================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--================= FOOTER START =================-->
+        <footer class="footer_section">
+
+          <div class="footer_container">
+            <div class="row footer_row">
+              <div class="col-lg-4 col-md-12 footer_box">
+                <div class="footer_content">
+                  <div class="footer_logo">
+                    <a href="index.html"><img src="./asset/images/logo1.jpg" alt="" class="img-fluid"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 footer_box">
+                <div class="footer_content">
+                  <div class="footer_text">
+                    <p><b>প্রধান সম্পাদক:</b> আফজাল বারী</p>
+                    <p>প্রোমিতা আফরিন কর্তৃক সম্পাদিত ও প্রকাশিত</p>
+                    <p><b>অফিস:</b> সি-৫০১, ৬ষ্ঠতলা, আল রাজী কমপ্লেক্স, ১৬৬-১৬৭</p>
+                    <p>শহীদ সৈয়দ নজরুল ইসলাম সরণি, পুরানা পল্টন, ঢাকা-১০০০</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 footer_box">
+                <div class="footer_content">
+                  <div class="footer_text">
+                    <p><b>যোগাযোগ:</b> <a href="#"> ০২-৫৫১১১৬৬০, ০১৬০০৩৪৪৩৭০-৭১,</a></p>
+                    <p><b>নিউজ রুম:</b> <a href="#"> ০১৬০০৩৪৪৩৭২,</a></p>
+                    <p><b>বিজ্ঞাপন:</b> <a href="#"> ০১৬০০৩৪৪৩৭৩</a></p>
+                    <p><b>E-mail:</b> <a href="#"> apandeshnews@gmail.com</a></p>
+                  </div>
+
+                  <div class="footer_social">
+                    <p>ফলো করুন <a href="#">সমকাল</a>-এর খবর</p>
+                    <div class="footer_icon">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--================= FOOTER END =================-->
+
+
+        <!--================= FOOTER CREATE START =================-->
+        <section class="create_section">
+            <div class="footer_create">
+              <div class="footer_create_box">
+                <p>© ২০২৪ | আপন দেশ ডটকম কর্তৃক সর্বসত্ব ® সংরক্ষিত | উন্নয়নে <a href="#">Iqbal Hasan</a></p>
+              </div>
+            </div>
+        </section>
+        <!--================= FOOTER CREATE END =================-->
+
+
+
+
+
+
+        <!--================= BACK TO BUTTON START =================-->
+        <div id="scrolltotop" class="back_to_top">
+          <span class="go_up"><i class="fa-solid fa-house-chimney"></i></span>
+        </div>
+        <!--================= BACK TO BUTTON END =================-->
+
+
+
+
+
+        <!--================= HEAD LINE START =================-->
+        <section class="head_line_section">
+
+          <div class="container-fluid">
+          <div class="DScroll">
+            <div class="DScrollSection">
+              <div class="ScrollHeading d-flex justify-content-center">
+                <p>শীর্ষ সংবাদ:</p>
+              </div>
+              <div class="ScrollSubject">
+                <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                  <a href="#"><span></span> রূপালী ব্যাংকে ডাকাত, ঘিরে রেখেছে পুলিশ-জনতা</a> 
+                  <a href="#"><span></span> আট কর্মকর্তার বিরুদ্ধে দুই মাসে তদন্ত শেষ করার নির্দেশ</a> 
+                  <a href="#"><span></span> নির্বাচন নিয়ে প্রধান উপ‌দেষ্টার বক্তব্যে বিএন‌পি হতাশ</a> 
+                  <a href="#"><span></span> সাবেক এমপি রাগিবুল হাসান গ্রেফতার</a> 
+                  <a href="#"><span></span> ট্রাক-অটোরিকশা সংঘর্ষে নারী-শিশুসহ নিহত ৫</a> 
+                  <a href="#"><span></span> গুমের সঙ্গে জড়িত ২০ কর্মকর্তার দেশত্যাগে নিষেধাজ্ঞা</a> 
+                  <a href="#"><span></span> ইসরায়েলি হামলায় আরও ৩৮ ফিলিস্তিনি নিহত</a> 
+                </marquee>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+        <!--================= HEAD LINE END =================-->
+
+
+
+
+
+
+
+
+
+    <!--Bootstrap Js link-->
+    <script src="./bootstrap/js/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!--AOS Animation cdn link-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <!--Swiper js file link-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- fslightbox cdn link-->
+    <script src="./asset/fslightbox.js"></script>
+
+
+
+
+      <!-- jquery link -->
+      <script src="./asset/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <script src="./asset/jquery.counterup.min.js"></script>
+      <script src="./asset/jquery.magnific-popup.min.js"></script>
+  
+
+    <!-- Javascript link -->
+    <script src="./asset/script.js"></script>
+    <script src="./asset/main.js"></script>
+
+</body>
+</html>
